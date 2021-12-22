@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+}
+
+table td,
+th {
+  padding: 5px;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+.table1st tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+table thead tr {
+  background-color: #fcd4d9;
+}
+.bold {
+  font-weight: bold;
+}
+#blue {
+  background-color: #b8daff;
+}
+#blue2nd {
+  background-color: #b8daff;
+}
+#green {
+  background-color: #c3e6cb;
+}
+#grandTotal {
+  background-color: #fcd4d9;
+}
+#dark {
+  background-color: black;
+  color: white;
+}
+#may {
+  background-color: #bee5eb;
+}
+#april {
+  background-color: #ffeeba;
+}
+.march {
+  background-color: #c3e6cb;
+}
+#feb {
+  background-color: #dddfe2;
+}
+
+/* This is second table css  */
+
+.tablett {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.tablett thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.tablett th,
+.tablett td {
+  padding: 12px 15px;
+}
+
+.tablett tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.tablett tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.tablett tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.tablett tbody tr.active_row {
+  font-weight: bold;
+  color: #009879;
+}
